@@ -16,14 +16,19 @@
 ## Objective:
 📖What is this probject about?
 
-  - Understand the current business performance
-  - 
+This project analyzses the `Hotel Booking Dataset` to build a PowerBi dashboard including data on transactions (**Booking Status**, **Booking Information**), guest details (**Guest**, **Country**), and booking-related dates (**Check In**, **Reservation Date**). It also includes service-related data (**Meal**, **Room Type**). The goal is to provide the **Revenue Manager** with data-driven insights to:
+- Understand the current business performance
+- Identify the root cause of cancellations.
 
 🥷 Who is this project for ?
 - Revenue Manager
 
 ❓ Business Question:
-
+- What's happening overall?
+- Which factors contribute most to the cancellations?
+- Which hotel type should be prioritize for improvement?
+- 
+  
 # Dataset Description
 ## 📌Data Source:
 - Source:
@@ -39,13 +44,13 @@
 
 | From Table | To Table | Join Key | Relationship Type |
 |-------------|-----------|-----------|------------------|
-| `FactTable` | `DimBookingStatus` | `booking_status_id` | Many-to-One (Each booking has one booking status, one reservation status, and one deposit type defined in this dimension) |
-| `FactTable` | `DimBookingInfo` | `booking_info_id` | Many-to-One (Each booking belongs to one booking info record (distribution channel, market segment, hotel type) |
-| `FactTable` | `DimCountry` | `country_code` | Many-to-One (Each booking is made by a customer from one country; multiple bookings can come from the same country) |
-| `FactTable` | `DimCustomer` | `custom_segment_id` | Many-to-One (Each booking belongs to one customer type or segment (e.g., repeated guest or new guest) |
-| `FactTable` | `DimService` | `service_id` | Many-to-One (Each booking includes one combination of reserved room, meal type, and assigned room category) |
-| `FactTable` | `DimBucket` | `bucket_id` | Many-to-One (Each booking is grouped into one bucket (e.g., group type or value segment) |
-| `FactTable` | `DimDate` | `reservation_date` | Many-to-One (Each booking has one reservation date, which links to the full calendar dimension for time-based analysis.) |
+| `FactTable` | `DimBookingStatus` | `booking_status_id` | Many-to-One (each booking record includes a single booking status, reservation status, deposit type) |
+| `FactTable` | `DimBookingInfo` | `booking_info_id` | Many-to-One (each booking belongs to one booking info record (distribution channel, market segment, hotel type)) |
+| `FactTable` | `DimCountry` | `countr_code` | Many-to-One (each booking is made by a customer from one country; many bookings can make by the same country) |
+| `FactTable` | `DimCustomer` | `customer_segment_id` | Many-to-One (each booking belongs to one customer type) |
+| `FactTable` | `DimService` | `service_id` | Many-to-One (each booking record incudes a resered room, meal type)|
+| `FactTable` | `DimBucket` | `bucket_id` | Many-to-One (each booking is grouped into one bucket based on "window booking")|
+| `FactTable` | `DimDate` | `check_in` | Many-to-One (each booking has one check-in date, which links to the calendar dimension for time-based analysis.) |
 
 # 🧠Design Thinking Process
 ## 1️⃣Empathize
