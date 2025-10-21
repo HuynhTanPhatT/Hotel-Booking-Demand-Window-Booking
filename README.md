@@ -92,7 +92,9 @@ This part will be in **Key Insights & Visualization** section.
    - `European guests` accounts for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
    - The `OnlineTA market` generated the highest revenue while  contributing to 76% of total cancellations.
    - **95.8%** of all cancellations came from bookings under the `No Deposit` payment option.
-=> `The 3 main factors driving the highest revenue loss and cancellations are European guests, OnlineTA market, and the No Deposit policy.`
+     
+=> **`The 3 main factors driving the highest revenue loss and cancellations are European guests, OnlineTA market, and the No Deposit policy.`**
+
 ## II. Guest Behavior Analysis
 Dựa trên 3 main factors, chính tôi sẽ tìm hiểu hành vi khách hàng của nhóm chiếm phần lớn % cancell này để tôngw hợp và dựa trên để đưa ra giải pháp (short solution) cho stakeholder.
 
