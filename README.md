@@ -54,11 +54,14 @@ This project analyzses the `Hotel Booking Dataset` to build a PowerBi dashboard 
 
 # 🧠Design Thinking Process
 ## 1️⃣Empathize
-<img width="1229" height="682" alt="image" src="https://github.com/user-attachments/assets/a80b4dec-298e-4a0b-b89b-a1485607fa4e" />
+<img width="1235" height="685" alt="image" src="https://github.com/user-attachments/assets/2d1e02ce-6b3f-4614-a1e4-213084bd728d" />
+
 ## 2️⃣Definde
-<img width="1237" height="688" alt="image" src="https://github.com/user-attachments/assets/af5590c3-3018-4d6a-aea6-702ae9fba725" />
+<img width="1227" height="689" alt="image" src="https://github.com/user-attachments/assets/f41e2b45-09b3-496d-916a-070b71cdac4e" />
+
 ## 3️⃣Ideate
-<img width="1233" height="676" alt="image" src="https://github.com/user-attachments/assets/b2b2164c-2e6e-4c93-a9ac-72c1e1d47095" />
+<img width="1232" height="689" alt="image" src="https://github.com/user-attachments/assets/7eba959b-7c86-4b1b-bcce-d070cdfe27e6" />
+
 ## 4️⃣Prototype
 This part will be in **Key Insights & Visualization** section.
 
@@ -67,7 +70,10 @@ This part will be in **Key Insights & Visualization** section.
 
 # 📊Key Insights & Visualizations
 ## I. Overview
+<img width="1300" height="732" alt="image" src="https://github.com/user-attachments/assets/7bda3751-a01d-49e7-8d60-d59226934e34" />
 
+
+## II. Guest Behavior Analysis
 # 💡Recommendation
 
 
