@@ -15,20 +15,21 @@
 # 📌Background & Overview
 ## Objective:
 📖What is this probject about?
-
-This project analyzses the `Hotel Booking Dataset` to build a PowerBi dashboard including data on transactions (**Booking Status**, **Booking Information**), guest details (**Guest**, **Country**), and booking-related dates (**Check In**, **Reservation Date**). It also includes service-related data (**Meal**, **Room Type**). The goal is to provide the **Revenue Manager** with data-driven insights to:
+This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, which including data on transactions (**Booking Status**, **Booking Information**), guest details (**Guest Information**, **Country**), and booking-related dates (**Check In**, **Reservation Date**). Additionally, it also includes service-related data (**Meal**, **Room Type**). The goal is to provide the **Revenue Manager** with **data-driven insights** to:
 - Understand the current business performance
 - Identify the root cause of cancellations.
+- Uncover guest behavior pattern for cancellations.
+- Support better decision-making to decrease cancellations while keeping `No Deposit` payment option.
 
 🥷 Who is this project for ?
 - Revenue Manager
 
 ❓ Business Question:
-- What's happening overall?
-- Which factors contribute most to the cancellations?
-- Which hotel type should be prioritize for improvement?
-- 
-  
+- What is the current performance of the hotels?
+- Which segments contribute the most to the cancellation rate?
+- How much revenue did the hotel lose due to cancelled bookings?
+- Which segments and guest groups should be prioritized for improvement?
+
 # Dataset Description
 ## 📌Data Source:
 - Source:
@@ -36,10 +37,8 @@ This project analyzses the `Hotel Booking Dataset` to build a PowerBi dashboard 
     - [Science Direct with Metadata](https://www.sciencedirect.com/science/article/pii/S2352340918315191)
 - Size: The `hotel_booking table` contains more than **+100.000** records.
 - Format: CSV
-  ## 📊Data Structure & Relationships
-1️⃣
-
-2️⃣Data Relationship:
+  ## 📊Data  Relationships
+Data Relationship:
 <img width="1452" height="701" alt="image" src="https://github.com/user-attachments/assets/1abb1070-50b8-4a42-944f-1d10a18d2b08" />
 
 | From Table | To Table | Join Key | Relationship Type |
@@ -66,7 +65,8 @@ This project analyzses the `Hotel Booking Dataset` to build a PowerBi dashboard 
 This part will be in **Key Insights & Visualization** section.
 
 # Data Processing by Python & SQL & DAX
-1. Using Python to
+1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb)
+    - Clean **booking records**: 
 
 # 📊Key Insights & Visualizations
 ## I. Overview
