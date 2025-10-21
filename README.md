@@ -67,8 +67,8 @@ This part will be in **Key Insights & Visualization** section.
 
 # Data Processing by Python & SQL & DAX
 1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb) to: 
-    - `**Data Cleaning**`: check data quality, handle null values, convert data types, detect data anamalies, and remove duplicate records.
-    - `**Exploratory Data Analysis (EDA)**`: identify the **pain points** of stakeholder (**revenue manager**).
+    - `Data Cleaning`: check data quality, handle null values, convert data types, detect data anamalies, and remove duplicate records.
+    - `Exploratory Data Analysis (EDA)`: identify the **pain points** of stakeholder (**revenue manager**).
 
 2. Using [SQL](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/SQL%20%E2%80%93%20Answering%20the%20problem%20statement%20in%20the%20Define%20stage%20of%20Design%20Thinking/2.%20Analysis%20Detailed%20Questions.sql) to:
     - Answer detailed questions based on the **pain points** to define `a clearly analytical direction` for the Power Bi dashboard.
@@ -82,7 +82,7 @@ This part will be in **Key Insights & Visualization** section.
     - `Confirmed Booking`: **62.109 bookings** (**72%**)
     - `Cancelled Bookings`: **24.004 bookings** (**28%**)
 1. **Booking Behavior**:
-    - Customer booking trends leaned toward the early-mid months of the year, consistently exceeding the average bookings (**March** -> **August**) -> Showing the hotel booking trend focused during the **peak travel seasons** (`spring`, `summer` and `autumn`) which are the best in terms of visiting **Portugal**.
+    - Customer booking trends leaned toward the early-mid months of the year, consistently exceeding the average bookings (**March** -> **August**) => Showing the hotel booking trend focused during the **peak travel seasons** (`spring`, `summer` and `autumn`) which are the best in terms of visiting **Portugal**.
 
 2. **Revenue & Revenue Loss & Cancellations**:
     - Revenue increased steadily over the years, reaching **$34.41M** in 08/2017. However, **24.004** cancelled bookings led to a potential revenue of **$11.48M** (accounted for 33.37% of the total revenue).
@@ -92,11 +92,12 @@ This part will be in **Key Insights & Visualization** section.
    - `European guests` accounts for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
    - The `OnlineTA market` generated the highest revenue while  contributing to 76% of total cancellations.
    - **95.8%** of all cancellations came from bookings under the `No Deposit` payment option.
-
-=> Result
-=> Problem
-=> Direction for Page 2
+=> `The 3 main factors driving the highest revenue loss and cancellations are European guests, OnlineTA market, and the No Deposit policy.`
 ## II. Guest Behavior Analysis
+Dựa trên 3 main factors, chính tôi sẽ tìm hiểu hành vi khách hàng của nhóm chiếm phần lớn % cancell này để tôngw hợp và dựa trên để đưa ra giải pháp (short solution) cho stakeholder.
+
+
+
 # 💡Recommendation
 
 
