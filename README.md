@@ -15,6 +15,7 @@
 # 📌Background & Overview
 ## Objective:
 📖What is this probject about?
+
 This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, which including data on transactions (**Booking Status**, **Booking Information**), guest details (**Guest Information**, **Country**), and booking-related dates (**Check In**, **Reservation Date**). Additionally, it also includes service-related data (**Meal**, **Room Type**). The goal is to provide the **Revenue Manager** with **data-driven insights** to:
 - Understand the current business performance
 - Identify the root cause of cancellations.
@@ -38,7 +39,6 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 - Size: The `hotel_booking table` contains more than **+100.000** records.
 - Format: CSV
   ## 📊Data  Relationships
-Data Relationship:
 <img width="1452" height="701" alt="image" src="https://github.com/user-attachments/assets/1abb1070-50b8-4a42-944f-1d10a18d2b08" />
 
 | From Table | To Table | Join Key | Relationship Type |
@@ -65,11 +65,14 @@ Data Relationship:
 This part will be in **Key Insights & Visualization** section.
 
 # Data Processing by Python & SQL & DAX
-1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb)
-    - Clean **booking records**: 
+1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb) to: 
+    - Data Cleaning: check data quality, handle null values, convert data types, detect data anamaly, remove duplicated data.
+    - Exploratory Data Analysis (EDA): to identify pain points of stakeholder (**revenue manager**).
 
-2. Using SQL to
+2. Using [SQL](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/SQL%20%E2%80%93%20Answering%20the%20problem%20statement%20in%20the%20Define%20stage%20of%20Design%20Thinking/2.%20Analysis%20Detailed%20Questions.sql) to:
+    - Answer detailed questions from pain points to determine a clearly defined need for analysis direction in Power Bi dashboard.
 3. DAX Calculations & Formulas
+
 # 📊Key Insights & Visualizations
 ## I. Overview
 <img width="1300" height="732" alt="image" src="https://github.com/user-attachments/assets/7bda3751-a01d-49e7-8d60-d59226934e34" />
