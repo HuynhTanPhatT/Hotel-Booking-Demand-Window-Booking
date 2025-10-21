@@ -7,7 +7,7 @@
     - PowerBi: Dax, calculated columns, data visualizaition, data modeling
 # ReadMe - Table Of Contents (TOCs)
 1. [Background & Overview]()
-2. [Dataset Description & Data Structure]()
+2. [Dataset Description]()
 3. [Design Thinking Process]()
 4. [Data Processing & Metrics Defination (Dax)]()
 5. [Key Insights & Visualizations]()
@@ -31,24 +31,25 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 - How much revenue did the hotel lose due to cancelled bookings?
 - Which segments and guest groups should be prioritized for improvement?
 
+Thiếu 1 ảnh bối cảnh của bài này -> thiết kế ở phần README trong 
 # Dataset Description
 ## 📌Data Source:
 - Source:
     - [Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data)
     - [Science Direct with Metadata](https://www.sciencedirect.com/science/article/pii/S2352340918315191)
-- Size: The `hotel_booking table` contains more than **+100.000** records.
+- Size: The `hotel_booking_table` contains more than **+100.000** records.
 - Format: CSV
-  ## 📊Data  Relationships
+## 📊Data  Relationship
 <img width="1452" height="701" alt="image" src="https://github.com/user-attachments/assets/1abb1070-50b8-4a42-944f-1d10a18d2b08" />
 
 | From Table | To Table | Join Key | Relationship Type |
 |-------------|-----------|-----------|------------------|
 | `FactTable` | `DimBookingStatus` | `booking_status_id` | Many-to-One (each booking record includes a single booking status, reservation status, deposit type) |
 | `FactTable` | `DimBookingInfo` | `booking_info_id` | Many-to-One (each booking belongs to one booking info record (distribution channel, market segment, hotel type)) |
-| `FactTable` | `DimCountry` | `countr_code` | Many-to-One (each booking is made by a customer from one country; many bookings can make by the same country) |
+| `FactTable` | `DimCountry` | `country_code` | Many-to-One (each booking is made by a customer from one country; many bookings can make by the same country) |
 | `FactTable` | `DimCustomer` | `customer_segment_id` | Many-to-One (each booking belongs to one customer type) |
 | `FactTable` | `DimService` | `service_id` | Many-to-One (each booking record incudes a resered room, meal type)|
-| `FactTable` | `DimBucket` | `bucket_id` | Many-to-One (each booking is grouped into one bucket based on "window booking")|
+| `FactTable` | `DimBucket` | `bucket_id` | Many-to-One (each booking is grouped into one bucket based on window booking)|
 | `FactTable` | `DimDate` | `check_in` | Many-to-One (each booking has one check-in date, which links to the calendar dimension for time-based analysis.) |
 
 # 🧠Design Thinking Process
@@ -66,18 +67,35 @@ This part will be in **Key Insights & Visualization** section.
 
 # Data Processing by Python & SQL & DAX
 1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb) to: 
-    - Data Cleaning: check data quality, handle null values, convert data types, detect data anamaly, remove duplicated data.
-    - Exploratory Data Analysis (EDA): to identify pain points of stakeholder (**revenue manager**).
+    - `**Data Cleaning**`: check data quality, handle null values, convert data types, detect data anamalies, and remove duplicate records.
+    - `**Exploratory Data Analysis (EDA)**`: identify the **pain points** of stakeholder (**revenue manager**).
 
 2. Using [SQL](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/SQL%20%E2%80%93%20Answering%20the%20problem%20statement%20in%20the%20Define%20stage%20of%20Design%20Thinking/2.%20Analysis%20Detailed%20Questions.sql) to:
-    - Answer detailed questions from pain points to determine a clearly defined need for analysis direction in Power Bi dashboard.
+    - Answer detailed questions based on the **pain points** to define `a clearly analytical direction` for the Power Bi dashboard.
 3. DAX Calculations & Formulas
 
 # 📊Key Insights & Visualizations
 ## I. Overview
 <img width="1300" height="732" alt="image" src="https://github.com/user-attachments/assets/7bda3751-a01d-49e7-8d60-d59226934e34" />
 
+- The total number of bookings recorded from (07/2015 -> 08/2017) was **86.113** bookings:
+    - `Confirmed Booking`: **62.109 bookings** (**72%**)
+    - `Cancelled Bookings`: **24.004 bookings** (**28%**)
+1. **Booking Behavior**:
+    - Customer booking trends leaned toward the early-mid months of the year, consistently exceeding the average bookings (**March** -> **August**) -> Showing the hotel booking trend focused during the **peak travel seasons** (`spring`, `summer` and `autumn`) which are the best in terms of visiting **Portugal**.
 
+2. **Revenue & Revenue Loss & Cancellations**:
+    - Revenue increased steadily over the years, reaching **$34.41M** in 08/2017. However, **24.004** cancelled bookings led to a potential revenue of **$11.48M** (accounted for 33.37% of the total revenue).
+4. **ADR**:
+    - The hotel applied the **flexible seasonal pricing strategy** with ADR ($59-$166.09) to optimize revenue. They set lower ADR during the **off season** (`Winter`) to stimulate demand from `budget travellers` and increased ADR during the **peak season** based on `guests' booking behavior`.
+5. **Region & Market & Deposit Type**:
+   - `European guests` accounts for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
+   - The `OnlineTA market` generated the highest revenue while  contributing to 76% of total cancellations.
+   - **95.8%** of all cancellations came from bookings under the `No Deposit` payment option.
+
+=> Result
+=> Problem
+=> Direction for Page 2
 ## II. Guest Behavior Analysis
 # 💡Recommendation
 
