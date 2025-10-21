@@ -68,6 +68,8 @@ This part will be in **Key Insights & Visualization** section.
 1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb)
     - Clean **booking records**: 
 
+2. Using SQL to
+3. DAX Calculations & Formulas
 # 📊Key Insights & Visualizations
 ## I. Overview
 <img width="1300" height="732" alt="image" src="https://github.com/user-attachments/assets/7bda3751-a01d-49e7-8d60-d59226934e34" />
