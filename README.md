@@ -87,7 +87,7 @@ This part will be in **Key Insights & Visualization** section.
 2. **Revenue & Revenue Loss & Cancellations**:
     - Revenue increased steadily over the years, reaching **$34.41M** in 08/2017. However, **24.004** cancelled bookings led to a potential revenue of **$11.48M** (accounted for 33.37% of the total revenue).
 4. **ADR**:
-    - The hotel applied the **flexible seasonal pricing strategy** with ADR ($59-$166.09) to optimize revenue. They set lower ADR during the **off season** (`Winter`) to stimulate demand from `budget travellers` and increased ADR during the **peak season** based on `guests' booking behavior`.
+    - The hotel applied the **flexible seasonal pricing strategy** with ADR ($59-$166.09) to optimize revenue. They set lower ADR during the **off season** (`Winter`) to stimulate demand from `budget travellers` or not followe the season and increased ADR during the **peak season** based on `guests' booking behavior`.
 5. **Region & Market & Deposit Type**:
    - `European guests` accounts for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
    - The `OnlineTA market` generated the highest revenue while  contributing to 76% of total cancellations.
