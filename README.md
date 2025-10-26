@@ -66,31 +66,29 @@ This part will be in **Key Insights & Visualization** section.
 
 # 📊Key Insights & Visualizations
 ## I. Overview
-<img width="1300" height="732" alt="image" src="https://github.com/user-attachments/assets/7bda3751-a01d-49e7-8d60-d59226934e34" />
+<img width="1301" height="728" alt="image" src="https://github.com/user-attachments/assets/58453a9f-338f-479b-bb4d-96497760485a" />
 
 - The total number of bookings recorded from (07/2015 -> 08/2017) was **86.113** bookings:
     - `Confirmed Booking`: **62.109 bookings** (**72%**)
     - `Cancelled Bookings`: **24.004 bookings** (**28%**)
 1. **Booking Behavior**:
-    - Customer booking trends leaned toward the early-mid months of the year, consistently exceeding the average bookings (**March** -> **August**) => Showing the hotel booking trend focused during the **peak travel seasons** (`spring`, `summer` and `autumn`) which are the best in terms of visiting **Portugal**.
+    - Customer booking trends leaned toward the early-mid months of the year, consistently exceeding the average bookings (**March** - **August**) -> Showing the hotel booking trend focused during the **peak travel seasons** (`spring`, `summer` and `autumn`) which are the best in terms of visiting **Portugal**.
 
 2. **Revenue & Revenue Loss & Cancellations**:
     - Revenue increased steadily over the years, reaching **$34.41M** in 08/2017. However, **24.004** cancelled bookings led to a potential revenue of **$11.48M** (accounted for 33.37% of the total revenue).
-3. **ADR**:
-    - The hotel applied the **flexible seasonal pricing strategy** with ADR ($59-$166.09) to optimize revenue. They set lower ADR during the **off season** (`Winter`) to stimulate demand and increased ADR during the **peak season** based on `guests' booking behavior`.
-4. **Average Window Booking**
-    - The booking window (days before check-in) has gradually increased by year & season:
-        - **Peak Season**: Guests tend to book early, on average 2-4 months before check-in
-        - **Off Season**: Guests book within 30 days before check-in
-          
-    => The hotel attracts early-booking guests, especially during the peak travel season.
 
-6. **Region & Market & Deposit Type**:
+3. **Window Booking** & **ADR**:
+    - The hotel applied a **flexible seasonal pricing strategy** with ADR (**$68**-**$183**) to optimize revenue. They set lower ADR during the **off season** (`winter`) and increased ADR during the **peak season**.
+    - Customers tended to book early, on average (2-4 months before check-in), especially before the peak season when ADRs were lower in the off season.
+
+    -> The hotel attracted **early-booking guests**, particularly during the **peak travel season**.
+
+5. **Region & Market & Deposit Type**:
    - `European guests` accounts for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
-   - The `OnlineTA market` generated the highest revenue while  contributing to 76% of total cancellations.
+   - The `TA/TO channel ` generated the highest revenue (**$29M** loss) while  contributing to **89.14%** of total cancellations.
    - **95.8%** of all cancellations came from bookings under the `No Deposit` payment option.
      
-=> **`The 3 main factors driving the highest revenue loss and cancellations are European guests, OnlineTA market, and the No Deposit policy.`**
+=> **`The 3 main factors driving the highest revenue loss and cancellations are European guests, TA/TO channel, and the No Deposit policy.`**
 
 ## II. Guest Behavior Analysis
 Dựa trên 3 main factors, chính tôi sẽ tìm hiểu hành vi khách hàng của nhóm chiếm phần lớn % cancell này để tôngw hợp và dựa trên để đưa ra giải pháp (short solution) cho stakeholder.
