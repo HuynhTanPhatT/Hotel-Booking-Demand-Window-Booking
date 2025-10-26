@@ -42,16 +42,6 @@ Thiếu 1 ảnh bối cảnh của bài này -> thiết kế ở phần README t
 ## 📊Data  Relationship
 <img width="1452" height="701" alt="image" src="https://github.com/user-attachments/assets/1abb1070-50b8-4a42-944f-1d10a18d2b08" />
 
-| From Table | To Table | Join Key | Relationship Type |
-|-------------|-----------|-----------|------------------|
-| `FactTable` | `DimBookingStatus` | `booking_status_id` | Many-to-One (each booking record includes a single booking status, reservation status, deposit type) |
-| `FactTable` | `DimBookingInfo` | `booking_info_id` | Many-to-One (each booking belongs to one booking info record (distribution channel, market segment, hotel type)) |
-| `FactTable` | `DimCountry` | `country_code` | Many-to-One (each booking is made by a customer from one country; many bookings can make by the same country) |
-| `FactTable` | `DimCustomer` | `customer_segment_id` | Many-to-One (each booking belongs to one customer type) |
-| `FactTable` | `DimService` | `service_id` | Many-to-One (each booking record incudes a resered room, meal type)|
-| `FactTable` | `DimBucket` | `bucket_id` | Many-to-One (each booking is grouped into one bucket based on window booking)|
-| `FactTable` | `DimDate` | `check_in` | Many-to-One (each booking has one check-in date, which links to the calendar dimension for time-based analysis.) |
-
 # 🧠Design Thinking Process
 ## 1️⃣Empathize
 <img width="1235" height="685" alt="image" src="https://github.com/user-attachments/assets/2d1e02ce-6b3f-4614-a1e4-213084bd728d" />
