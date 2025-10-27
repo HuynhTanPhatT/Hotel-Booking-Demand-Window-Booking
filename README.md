@@ -84,16 +84,29 @@ This part will be in **Key Insights & Visualization** section.
     -> The hotel attracted **early-booking guests**, particularly during the **peak travel season**.
 
 5. **Region & Market & Deposit Type**:
-   - `European guests` accounts for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
+   - `European guests` accounted for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
    - The `TA/TO channel ` generated the highest revenue (**$29M** loss) while  contributing to **89.14%** of total cancellations.
    - **95.8%** of all cancellations came from bookings under the `No Deposit` payment option.
      
 => **`The 3 main factors driving the highest revenue loss and cancellations are European guests, TA/TO channel, and the No Deposit policy.`**
 
 ## II. Guest Behavior Analysis
-Dựa trên 3 main factors, chính tôi sẽ tìm hiểu hành vi khách hàng của nhóm chiếm phần lớn % cancell này để tôngw hợp và dựa trên để đưa ra giải pháp (short solution) cho stakeholder.
+<img width="1157" height="651" alt="image" src="https://github.com/user-attachments/assets/8384e92c-05b0-40f0-87ac-3e7358945ffc" />
 
+1. **Guest's Booking Behavior**:
+    - Guests tented to make reservations ranging from 0->500 (days before check-in), with most cancellations in (>30 days) bucket.
 
+2. **Correlation between Window Booking Bucket & Cancellation Rate**:
+    - The longer the window booking, the higher the cancellation rate, especially in (91-180 days) & (180+ days) bucket. However, the (31-90 days) bucket accounted the most compared to other buckets.
+
+3. **Cancellation Time**:
+    - Cancellations were concentrated in Spring and Summer, coinciding with peak travel season - where guests booked and cancelled the most.
+
+4. **Guest Group**:
+    - Domestic-Transient guests from Portugal who were the main cause to the revenue loss across both hotel types. In addtion, most of them were first-tiem guests.
+
+- `Why Long-Window Booking be preferred by guests?`
+    - They prefer flexibility - with no deposit involed, canceling or alterting their reservation is easier with fees. Additionally, they don't have to worry about unexpected changes.
 
 # 💡Recommendation
 
