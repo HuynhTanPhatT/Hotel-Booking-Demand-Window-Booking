@@ -45,7 +45,7 @@ Thiếu 1 ảnh bối cảnh của bài này -> thiết kế ở phần README t
 
 # 🧠Design Thinking Process
 ## 1️⃣Empathize
-<img width="1235" height="685" alt="image" src="https://github.com/user-attachments/assets/2d1e02ce-6b3f-4614-a1e4-213084bd728d" />
+<img width="1228" height="692" alt="image" src="https://github.com/user-attachments/assets/8f66e40b-81b3-4474-951a-f42ec9d4e6f8" />
 
 ## 2️⃣Definde
 <img width="1227" height="689" alt="image" src="https://github.com/user-attachments/assets/f41e2b45-09b3-496d-916a-070b71cdac4e" />
@@ -67,7 +67,7 @@ This part will be in **Key Insights & Visualization** section.
 
 # 📊Key Insights & Visualizations
 ## I. Overview
-<img width="1301" height="728" alt="image" src="https://github.com/user-attachments/assets/58453a9f-338f-479b-bb4d-96497760485a" />
+<img width="1300" height="734" alt="image" src="https://github.com/user-attachments/assets/efd199ae-b396-4404-ab67-810da8c3bd9f" />
 
 - The total number of bookings recorded from (07/2015 -> 08/2017) was **86.113** bookings:
     - `Confirmed Booking`: **62.109 bookings** (**72%**)
@@ -94,7 +94,7 @@ This part will be in **Key Insights & Visualization** section.
 => **`The 3 main factors driving the highest revenue loss and cancellations are European guests, TA/TO channel, and the No Deposit policy.`**
 
 ## II. Guest Behavior Analysis
-<img width="1157" height="651" alt="image" src="https://github.com/user-attachments/assets/8384e92c-05b0-40f0-87ac-3e7358945ffc" />
+<img width="1300" height="733" alt="image" src="https://github.com/user-attachments/assets/8aeddd9a-3547-4ef6-a5fa-2f5bd1178c8d" />
 
 1. **Correlation between Window Booking Bucket & Cancellation Rate**:
     - Guests tended to make reservations ranging from **0-500** days before check-in, with most cancelled bookings concentrated in the `31-90 days` and `91-180 days` buckets.
