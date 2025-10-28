@@ -40,7 +40,7 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 - Size: The `hotel_booking_table` contains more than **+100.000** records.
 - Format: CSV
 ## 📊Data  Relationship
-<img width="1452" height="701" alt="image" src="https://github.com/user-attachments/assets/1abb1070-50b8-4a42-944f-1d10a18d2b08" />
+<img width="1735" height="722" alt="image" src="https://github.com/user-attachments/assets/0ef39198-47e9-4ed3-a469-d9277639fb3a" />
 
 
 # Data Processing by Python & SQL & DAX
