@@ -72,7 +72,9 @@ This part will be in **Key Insights & Visualization** section.
     - `Confirmed Booking`: **62.109 bookings** (**72%**)
     - `Cancelled Bookings`: **24.004 bookings** (**28%**)
 1. **Booking Behavior**:
-    - Customer booking trends leaned toward the early-mid months of the year, consistently exceeding the average bookings (**March** - **August**) -> Showing the hotel booking trend focused during the **peak travel seasons** (`spring`, `summer` and `autumn`) which are the best in terms of visiting **Portugal**.
+    - Customer booking trends leaned toward the early-mid months of the year, consistently exceeding the average bookings (**March** - **August**)
+    
+   -> Showing the hotel booking trend focused during the **peak travel seasons** (`spring`, `summer` and `autumn`) which are the best in terms of visiting **Portugal**.
 
 2. **Revenue & Revenue Loss & Cancellations**:
     - Revenue increased steadily over the years, reaching **$34.41M** in 08/2017. However, **24.004** cancelled bookings led to a potential revenue of **$11.48M** (accounted for 33.37% of the total revenue).
@@ -92,21 +94,22 @@ This part will be in **Key Insights & Visualization** section.
 
 ## II. Guest Behavior Analysis
 <img width="1157" height="651" alt="image" src="https://github.com/user-attachments/assets/8384e92c-05b0-40f0-87ac-3e7358945ffc" />
+1. **Correlation between Window Booking Bucket & cancellation rate**:
+    - Guests tended to make reservations ranging from 0->500 (days before check-in), most cancelled bookings concentrated on bucket (`31-90 days`, `91-180 days`)
+    - The data showed: the longer then window booking, the higher the cancellation rate (especially in `91-180 days` & `180+days` bucket which had the high cancellation rate.
 
-1. **Guest's Booking Behavior**:
-    - Guests tented to make reservations ranging from 0->500 (days before check-in), with most cancellations in (>30 days) bucket.
+2. **Season Trend**:
+    - In `spring` and `summer`, coinciding with the peak travel season - where guests booked and cancelled the most mostly on `31-90 days` & `91-180 days`.
 
-2. **Correlation between Window Booking Bucket & Cancellation Rate**:
-    - The longer the window booking, the higher the cancellation rate, especially in (91-180 days) & (180+ days) bucket. However, the (31-90 days) bucket accounted the most compared to other buckets.
-
-3. **Cancellation Time**:
-    - Cancellations were concentrated in Spring and Summer, coinciding with peak travel season - where guests booked and cancelled the most.
-
-4. **Guest Group**:
-    - Domestic-Transient guests from Portugal who were the main cause to the revenue loss across both hotel types. In addtion, most of them were first-tiem guests.
+3. **The contribution of guest group**:
+    - Early-Bird guests accounted for (78-82%) based on the city type - mainly about **domestic Transient**.
+    - These guests (particularly from Portugal) accounting (30% in City & 60% in Resort) with a loss of potential revenue (**1M**-**2.26M) -> They were first-time booking guests.
 
 - `Why Long-Window Booking be preferred by guests?`
-    - They prefer flexibility - with no deposit involed, canceling or alterting their reservation is easier with fees. Additionally, they don't have to worry about unexpected changes.
+    - They prefer flexibility: booked early to secure their spot, with no deposit involed, they do not need to pay any fees until check-in.
+    - Additionally, they could easily to cancel or alter their reservation if something unexpected or find a better deals.
+
+    -> No Deposit Policy brings convinience, but also the root cause of the behavior "book early - easy cancell", resulting the rate of cancellations increasing strong in Early-Bird.
 
 # 💡Recommendation
 
