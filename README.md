@@ -10,8 +10,9 @@
 2. [Dataset Description]()
 3. [Design Thinking Process]()
 4. [Data Processing & Metrics Defination (Dax)]()
-5. [Key Insights & Visualizations]()
-6. [Recommendations]()
+5. [Hotel Room Reservation Booking Timeline]()
+6. [Key Insights & Visualizations]()
+7. [Recommendations]()
 # 📌Background & Overview
 ## Objective:
 📖What is this probject about?
