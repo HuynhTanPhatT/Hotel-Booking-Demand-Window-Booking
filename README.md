@@ -61,7 +61,7 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 <img width="1227" height="689" alt="image" src="https://github.com/user-attachments/assets/f41e2b45-09b3-496d-916a-070b71cdac4e" />
 
 ## 3️⃣Ideate
-<img width="1232" height="689" alt="image" src="https://github.com/user-attachments/assets/7eba959b-7c86-4b1b-bcce-d070cdfe27e6" />
+<img width="1229" height="688" alt="image" src="https://github.com/user-attachments/assets/5ee1af87-d8ed-45a6-a885-f271d3c6f261" />
 
 ## 4️⃣Prototype
 This part will be in **Key Insights & Visualization** section.
