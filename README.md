@@ -1,4 +1,4 @@
-# 🏩Hotel Booking Cancelaltion Impact Analysis (07/2015 - 10/2017)
+# 🏩Hotel Booking Demand & Cancellation Analysis - Understanding Early Booking with No Deposit Behavior (07/2015 - 10/2017)
 - Author: Huỳnh Tấn Phát
 - Date: 10/2025
 - Tool Used: `Python`, `SQL`, `PowerBi`
@@ -32,7 +32,6 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 - How much revenue did the hotel lose due to cancelled bookings?
 - Which segments and guest groups should be prioritized for improvement?
 
-Thiếu 1 ảnh bối cảnh của bài này -> thiết kế ở phần README trong 
 # Dataset Description
 ## 📌Data Source:
 - Source:
@@ -42,6 +41,17 @@ Thiếu 1 ảnh bối cảnh của bài này -> thiết kế ở phần README t
 - Format: CSV
 ## 📊Data  Relationship
 <img width="1452" height="701" alt="image" src="https://github.com/user-attachments/assets/1abb1070-50b8-4a42-944f-1d10a18d2b08" />
+
+
+# Data Processing by Python & SQL & DAX
+1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb) to: 
+    - `Data Cleaning`: check data quality, handle null values, convert data types, detect data anamalies, and remove duplicate records.
+    - `Exploratory Data Analysis (EDA)`: identify the **pain points** of stakeholder (**revenue manager**).
+
+2. Using [SQL](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/SQL%20%E2%80%93%20Answering%20the%20problem%20statement%20in%20the%20Define%20stage%20of%20Design%20Thinking/2.%20Analysis%20Detailed%20Questions.sql) to:
+    - Answer detailed questions based on the **pain points** to define `a clearly analytical direction` for the Power Bi dashboard.
+3. DAX Calculations & Formulas
+
 
 # 🧠Design Thinking Process
 ## 1️⃣Empathize
@@ -56,17 +66,8 @@ Thiếu 1 ảnh bối cảnh của bài này -> thiết kế ở phần README t
 ## 4️⃣Prototype
 This part will be in **Key Insights & Visualization** section.
 
-# Data Processing by Python & SQL & DAX
-1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb) to: 
-    - `Data Cleaning`: check data quality, handle null values, convert data types, detect data anamalies, and remove duplicate records.
-    - `Exploratory Data Analysis (EDA)`: identify the **pain points** of stakeholder (**revenue manager**).
-
-2. Using [SQL](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/SQL%20%E2%80%93%20Answering%20the%20problem%20statement%20in%20the%20Define%20stage%20of%20Design%20Thinking/2.%20Analysis%20Detailed%20Questions.sql) to:
-    - Answer detailed questions based on the **pain points** to define `a clearly analytical direction` for the Power Bi dashboard.
-3. DAX Calculations & Formulas
-
 # 📊Key Insights & Visualizations
-## I. Overview
+## I. Business Overview
 <img width="1300" height="734" alt="image" src="https://github.com/user-attachments/assets/efd199ae-b396-4404-ab67-810da8c3bd9f" />
 
 - The total number of bookings recorded from (07/2015 -> 08/2017) was **86.113** bookings:
