@@ -113,6 +113,9 @@ This part will be in **Key Insights & Visualization** section.
 
     -> No Deposit Policy brings convinience, but also the root cause of the behavior "book early - easy cancell", resulting the rate of cancellations increasing strong in Early-Bird.
 
+## III. Operation Analysis
+
+
 # 💡Recommendation
 
 
