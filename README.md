@@ -94,18 +94,19 @@ This part will be in **Key Insights & Visualization** section.
 
 ## II. Guest Behavior Analysis
 <img width="1157" height="651" alt="image" src="https://github.com/user-attachments/assets/8384e92c-05b0-40f0-87ac-3e7358945ffc" />
-1. **Correlation between Window Booking Bucket & cancellation rate**:
-    - Guests tended to make reservations ranging from 0->500 (days before check-in), most cancelled bookings concentrated on bucket (`31-90 days`, `91-180 days`)
-    - The data showed: the longer then window booking, the higher the cancellation rate (especially in `91-180 days` & `180+days` bucket which had the high cancellation rate.
 
-2. **Season Trend**:
-    - In `spring` and `summer`, coinciding with the peak travel season - where guests booked and cancelled the most mostly on `31-90 days` & `91-180 days`.
+1. **Correlation between Window Booking Bucket & Cancellation Rate**:
+    - Guests tended to make reservations ranging from **0-500** days before check-in, with most cancelled bookings concentrated in the `31-90 days` and `91-180 days` buckets.
+    - There is a pattern: **the longer the window booking, the higher the cancellation rate, especially within the `91-180 days` and `180+ days` buckets.
 
-3. **The contribution of guest group**:
-    - Early-Bird guests accounted for (78-82%) based on the city type - mainly about **domestic Transient**.
-    - These guests (particularly from Portugal) accounting (30% in City & 60% in Resort) with a loss of potential revenue (**1M**-**2.26M) -> They were first-time booking guests.
+2. **Seasonal Patter**:
+    - During `spring` and `summer` (the peak travel season) - guests booked and cancelled the most (mainly within `31-90 days` & `91-180 days`).
 
-- `Why Long-Window Booking be preferred by guests?`
+5. **Guest Group Contribution**:
+    - Early-Bird guests accounted for 78-82% of cancellations (based on the hotel type), mainly **domestic Transient guests**.
+    - These guests from Portugal recorded (30% of City) & (60% of Resort) %cancellation causing **$1M-$2.26M** in potential revenue loss-> Most of them were first-time booking guests.
+
+- `Why do guests prefer Long-Window Booking?`
     - They prefer flexibility: booked early to secure their spot, with no deposit involed, they do not need to pay any fees until check-in.
     - Additionally, they could easily to cancel or alter their reservation if something unexpected or find a better deals.
 
