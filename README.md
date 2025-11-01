@@ -10,7 +10,7 @@
 2. [Dataset Description]()
 3. [Design Thinking Process]()
 4. [Data Processing & Metrics Defination (Dax)]()
-5. [Hotel Room Reservation Booking Timeline]()
+5. [Hotel Room Reservation Timeline]()
 6. [Key Insights & Visualizations]()
 7. [Recommendations]()
 # 📌Background & Overview
@@ -55,20 +55,25 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 
 # 🧠Design Thinking Process
 ## 1️⃣Empathize
-<img width="1228" height="692" alt="image" src="https://github.com/user-attachments/assets/8f66e40b-81b3-4474-951a-f42ec9d4e6f8" />
+<img width="1232" height="693" alt="image" src="https://github.com/user-attachments/assets/d179f4a5-af3b-470f-a9b8-fc6b2a72be5b" />
 
 ## 2️⃣Definde
-<img width="1227" height="689" alt="image" src="https://github.com/user-attachments/assets/f41e2b45-09b3-496d-916a-070b71cdac4e" />
+<img width="1232" height="693" alt="image" src="https://github.com/user-attachments/assets/a77da901-bcff-47d9-bb71-6dfe7003344f" />
 
 ## 3️⃣Ideate
-<img width="1229" height="688" alt="image" src="https://github.com/user-attachments/assets/5ee1af87-d8ed-45a6-a885-f271d3c6f261" />
+<img width="1234" height="691" alt="image" src="https://github.com/user-attachments/assets/5dbcda57-eb80-48ab-bbfe-bd62b899a212" />
 
 ## 4️⃣Prototype
 This part will be in **Key Insights & Visualization** section.
 
+
+# 🔗Hotel Room Reservation Booking Timeline
+<img width="1232" height="690" alt="image" src="https://github.com/user-attachments/assets/6a628548-1400-4314-83f8-7d8c80c2fb28" />
+
+
 # 📊Key Insights & Visualizations
 ## I. Business Overview
-<img width="1300" height="734" alt="image" src="https://github.com/user-attachments/assets/efd199ae-b396-4404-ab67-810da8c3bd9f" />
+<img width="1303" height="731" alt="image" src="https://github.com/user-attachments/assets/a76d8f57-1e5f-42fd-a404-d26044c27d16" />
 
 - The total number of bookings recorded from (07/2015 -> 08/2017) was **86.113** bookings:
     - `Confirmed Booking`: **62.109 bookings** (**72%**)
@@ -95,18 +100,18 @@ This part will be in **Key Insights & Visualization** section.
 => **`The 3 main factors driving the highest revenue loss and cancellations are European guests, TA/TO channel, and the No Deposit policy.`**
 
 ## II. Guest Behavior Analysis
-<img width="1300" height="733" alt="image" src="https://github.com/user-attachments/assets/8aeddd9a-3547-4ef6-a5fa-2f5bd1178c8d" />
+<img width="1300" height="728" alt="image" src="https://github.com/user-attachments/assets/91a43e2c-6335-4a82-ab19-59268b7359d8" />
 
 1. **Correlation between Window Booking Bucket & Cancellation Behavior**:
-    - Guests'booking behavior shows a clear pattern: the longer the booking window, the higher the cancellation rate.
+    - Guests' booking behavior shows a clear pattern: the longer the booking window, the higher the cancellation rate.
     - Most cancellations come from within `31-180+ day` bucket, with the `91-180 days` and `180+ days` buckets showing the highest cancellation rates (**60%**-**100%**)
 
-    => A trend of booking early to secure rooms in advance, then cancelling later.
+    -> A trend of booking early to secure rooms in advance, then cancelling later.
 
 2. **Correlation between Window Booking Bucket & Length of Stay**:
    - The booking window and stay duration can vary depending on hotel type (Resort, City) and location:
         - Resort Hotel sees a longer stays due to seasonal nature of vacations -> Early-Bird guests stay more then Last-Minute or Medium-Window.
-        - City Hotel experience shorter stay might be because of spontaneuos travel plans. -> Last-Minute and Medium-Window has more stay duration than Early-Birds.
+        - City Hotel experience shorter stay might be because of spontaneuos travel plans.  -> Last-Minute and Medium-Window has more stay duration than Early-Birds.
 
 3. **The cancellation rate within peak/off season**:
     - During `spring` and `summer` (the peak travel season) - guests booked and cancelled the most (mainly within `31-90 days` & `91-180 days`) buckets.
@@ -118,7 +123,8 @@ This part will be in **Key Insights & Visualization** section.
 - `Why do guests prefer Long-Window Booking?`
     - They prefer flexibility: booked early to secure their spot, with no deposit involed, they do not need to pay any fees until check-in.
     - Additionally, they could easily to cancel or alter their reservation if something unexpected or find a better deals.
-    -> `The no Deposit policy, with Early-Bird behavior drives "book early-easy cancel", resulting in high cancellation rates among long-window bookings.`
+    
+=> **`The no Deposit policy, with Early-Bird behavior drives "book early-easy cancel", resulting in high cancellation rates among long-window bookings.`**
 
 ## III. Operation Analysis
 
