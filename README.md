@@ -97,22 +97,28 @@ This part will be in **Key Insights & Visualization** section.
 ## II. Guest Behavior Analysis
 <img width="1300" height="733" alt="image" src="https://github.com/user-attachments/assets/8aeddd9a-3547-4ef6-a5fa-2f5bd1178c8d" />
 
-1. **Correlation between Window Booking Bucket & Cancellation Rate**:
-    - Guests tended to make reservations ranging from **0-500** days before check-in, with most cancelled bookings concentrated in the `31-90 days` and `91-180 days` buckets.
-    - There is a pattern: **the longer the window booking, the higher the cancellation rate, especially within the `91-180 days` and `180+ days` buckets.
+1. **Correlation between Window Booking Bucket & Cancellation Behavior**:
+    - Guests'booking behavior shows a clear pattern: the longer the booking window, the higher the cancellation rate.
+    - Most cancellations come from within `31-180+ day` bucket, with the `91-180 days` and `180+ days` buckets showing the highest cancellation rates (**60%**-**100%**)
 
-2. **Seasonal Patter**:
-    - During `spring` and `summer` (the peak travel season) - guests booked and cancelled the most (mainly within `31-90 days` & `91-180 days`).
+    => A trend of booking early to secure rooms in advance, then cancelling later.
 
-5. **Guest Group Contribution**:
-    - Early-Bird guests accounted for 78-82% of cancellations (based on the hotel type), mainly **domestic Transient guests**.
-    - These guests from Portugal recorded (30% of City) & (60% of Resort) %cancellation causing **$1M-$2.26M** in potential revenue loss-> Most of them were first-time booking guests.
+2. **Correlation between Window Booking Bucket & Length of Stay**:
+   - The booking window and stay duration can vary depending on hotel type (Resort, City) and location:
+        - Resort Hotel sees a longer stays due to seasonal nature of vacations -> Early-Bird guests stay more then Last-Minute or Medium-Window.
+        - City Hotel experience shorter stay might be because of spontaneuos travel plans. -> Last-Minute and Medium-Window has more stay duration than Early-Birds.
+
+3. **The cancellation rate within peak/off season**:
+    - During `spring` and `summer` (the peak travel season) - guests booked and cancelled the most (mainly within `31-90 days` & `91-180 days`) buckets.
+
+4. **Most impacted Guest segment**:
+    - Early-Bird guests accounted for majority of cancellations (**78%**-**82%** across hotel types). Mainly **domestict Transient guests** from **Portugal** contributed to cancellations (~30% in City, ~60% in Resort)
+    - These cancellations resulted in over $3M in potential revenue loss.
 
 - `Why do guests prefer Long-Window Booking?`
     - They prefer flexibility: booked early to secure their spot, with no deposit involed, they do not need to pay any fees until check-in.
     - Additionally, they could easily to cancel or alter their reservation if something unexpected or find a better deals.
-
-    -> No Deposit Policy brings convinience, but also the root cause of the behavior "book early - easy cancell", resulting the rate of cancellations increasing strong in Early-Bird.
+    -> `The no Deposit policy, with Early-Bird behavior drives "book early-easy cancel", resulting in high cancellation rates among long-window bookings.`
 
 ## III. Operation Analysis
 
